@@ -1,0 +1,25 @@
+{
+  "name": "proto-task-wait-done",
+  "version": "0.0.1",
+  "description": "simple proto-based event handler, wait events and do task",
+  "main": "main.js",
+  "scripts": {
+    "test": "node-dev test.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jiyinyiyong/proto-task-wait-done.git"
+  },
+  "keywords": [
+    "event",
+    "proto"
+  ],
+  "author": "jiyinyiyong",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/jiyinyiyong/proto-task-wait-done/issues"
+  },
+  "dependencies": {
+    "proto-scope": "0.0.2"
+  }
+}
