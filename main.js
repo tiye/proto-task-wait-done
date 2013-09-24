@@ -4,8 +4,6 @@ var proto,
 
 proto = require('proto-scope').proto;
 
-console.log(proto);
-
 exports.task = proto.as({
   init: function() {
     this.keys = [];

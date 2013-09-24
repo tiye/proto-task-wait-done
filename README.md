@@ -6,6 +6,10 @@ simple proto-based event handler, wait events and do task
 
 ### Usage
 
+```
+npm install --save proto-task-wait-done
+```
+
 ```coffee
 task = require('./main').task.new()
 
@@ -23,8 +27,6 @@ task.done 'b', 'data of b'
 
 ```coffee
 {proto} = require 'proto-scope'
-
-console.log proto
 
 exports.task = proto.as
   init: ->

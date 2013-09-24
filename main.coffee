@@ -1,8 +1,6 @@
 
 {proto} = require 'proto-scope'
 
-console.log proto
-
 exports.task = proto.as
   init: ->
     @keys = []
